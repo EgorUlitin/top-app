@@ -18,6 +18,6 @@ function Home(): JSX.Element {
       <Rating rating={rating} isEditable setRating={setRating} />
     </>
   );
-};
+}
 
 export default withLayout(Home);
